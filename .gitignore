@@ -2,6 +2,7 @@
 
 deploy
 .gradle
+.idea
 
 *.iws
 *.ipr
