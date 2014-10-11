@@ -1,0 +1,10 @@
+.DS_Store
+
+deploy
+.gradle
+
+*.iws
+*.ipr
+*.iml
+
+atlassian-ide-plugin.xml
