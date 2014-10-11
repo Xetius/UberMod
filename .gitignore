@@ -3,6 +3,7 @@
 deploy
 .gradle
 .idea
+.clover
 
 *.iws
 *.ipr
