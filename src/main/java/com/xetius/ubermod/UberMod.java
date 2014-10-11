@@ -1,6 +1,9 @@
 package com.xetius.ubermod;
 
+import com.xetius.ubermod.items.ModItems;
 import com.xetius.ubermod.proxy.Proxy;
+import com.xetius.ubermod.recipes.Recipes;
+import com.xetius.ubermod.smelting.Smelting;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.Mod.Instance;
@@ -25,10 +28,13 @@ public class UberMod {
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
+          ModItems.registerItems();
     }
 
     @EventHandler
     public void init(FMLInitializationEvent event) {
+        Smelting.addSmeltingRecipes();
+        Recipes.addRecipes();
     }
 
     @EventHandler
