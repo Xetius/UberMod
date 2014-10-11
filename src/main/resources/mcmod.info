@@ -1,0 +1,17 @@
+[
+{
+  "modid": "Xetius Uber Mod",
+  "name": "Xetius's Uber Mod",
+  "description": "Xetius's awesome Uber Mod to learn how to do everything",
+  "version": "1.7.10-1.0",
+  "credits": "Created by Xetius",
+  "logoFile": "",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authors": [ "Xetius" ],
+  "parent":"",
+  "screenshots": [],
+  "dependencies": ["mod_MinecraftForge"]
+}
+]
